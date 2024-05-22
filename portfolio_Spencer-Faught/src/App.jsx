@@ -1,4 +1,5 @@
-import './App.css'
+//import './App.css'
+import NavBar from './NavBar'
 
 
 function App() {
@@ -6,8 +7,7 @@ function App() {
 
   return (
     <>
-      <h1>Test again!</h1>
-      <h1>Test again!</h1>
+     <NavBar />
     </>
   )
 }
