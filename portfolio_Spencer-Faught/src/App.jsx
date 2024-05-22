@@ -1,14 +1,12 @@
-//import './App.css'
-import NavBar from './NavBar'
+import styles from './App.module.css'
+
 
 
 function App() {
   
 
   return (
-    <>
-     <NavBar />
-    </>
+    <div className = {styles.App}>Hello orld</div>
   )
 }
 
