@@ -3,10 +3,10 @@
       "title": "Wordle Clone",
       "imageSrc": "projects/wordleClone.png",
       "description": "A clone of the popular New York Times game - Wordle",
-      "skills": ["HTML", "CSS", "JavaScript"],
+      "skills": ["HTML", "CSS", "JavaScript", "jQuery"],
       "demo": "https://sgfaught1.github.io/wordle/",
       "source": "https://github.com/sgfaught1/wordle",
-      "unique": "Play!"
+      "unique": "Play !"
     },
     {
       "title": "Project B",
