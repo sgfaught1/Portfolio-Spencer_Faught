@@ -4,6 +4,7 @@ import { getImageUrl } from '../../utils'
 
 export default function Contact(){
   return (
+    <>
     <footer id = 'contact' className={styles.container}>
         <div className={styles.text}>
             <h2>Contact</h2>
@@ -24,5 +25,7 @@ export default function Contact(){
             </li>
         </ul>
     </footer>
+    <div className={styles.mentions}><p>Photo Credit: <a href="https://www.freepik.com/free-vector/code-typing-concept-illustration_11436094.htm#fromView=search&page=3&position=42&uuid=60d9dad5-5bf6-455a-9dca-d132af1b4c06">Image by storyset on Freepik</a> and <a href="https://www.freepik.com/free-vector/blond-man-with-eyeglasses-icon-isolated_68190105.htm#fromView=search&page=1&position=0&uuid=955d2227-a741-4b8f-8bcb-3e3756f2cff6">Image by djvstock on Freepik</a></p></div>
+    </>
   )
 }
