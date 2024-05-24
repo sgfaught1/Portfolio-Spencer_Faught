@@ -3,9 +3,10 @@
       "title": "Wordle Clone",
       "imageSrc": "projects/project.png",
       "description": "This  to learn the latest languages by building an app.",
-      "skills": ["HTML", "CSS", "JS"],
+      "skills": ["HTML", "CSS", "JavaScript"],
       "demo": "https://sgfaught1.github.io/wordle/",
-      "source": "https://github.com/sgfaught1/wordle"
+      "source": "https://github.com/sgfaught1/wordle",
+      "unique": "Play!"
     },
     {
       "title": "Project B",
@@ -13,7 +14,8 @@
       "description": "This is a project made to learn the latest languages by building an app.",
       "skills": ["React", "Express", "Node", "Sass"],
       "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "source": "https://www.github.com",
+      "unique": "View"
     },
     {
       "title": "Project C",
@@ -21,6 +23,7 @@
       "description": "This is a project made to learn the latest languages by building an app.",
       "skills": ["React", "Express", "Node"],
       "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "source": "https://www.github.com",
+      "unique": "Read"
     }
   ]

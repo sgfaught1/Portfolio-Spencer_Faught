@@ -1,7 +1,7 @@
 import React from 'react'
 import { getImageUrl } from '../../utils';
 import styles from "./ProjectCard.module.css"
-export const ProjectCard = ({project : {title, imageSrc, description, skills, demo, source}}) => {
+export const ProjectCard = ({project : {title, imageSrc, description, skills, demo, source, unique}}) => {
     return (
         <div className={styles.container}>
             <img
@@ -18,8 +18,8 @@ export const ProjectCard = ({project : {title, imageSrc, description, skills, de
                 })}
             </ul>
             <div className={styles.links}>
-                <a href={demo} className={styles.link}>Demos</a>
-                <a href={source} className={styles.link}>Source</a>
+                <a href={demo}  target = "_blank" className={styles.link}>{unique}</a>
+                <a href={source} className={styles.link}>Code</a>
             </div>
         </div>
     )
