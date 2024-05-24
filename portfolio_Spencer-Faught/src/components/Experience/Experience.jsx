@@ -7,7 +7,7 @@ import history from '../../data/history.json'
 export default function Experience() {
     return (
         <section className={styles.container} id='experience'>
-            <h2 className={styles.title}>Skills</h2>
+            <h2 className={styles.title}>Skills / Open Source Contributions</h2>
             <div className={styles.content}>
                 <div className={styles.skills}>
                     {skills.map((skill, id) => {

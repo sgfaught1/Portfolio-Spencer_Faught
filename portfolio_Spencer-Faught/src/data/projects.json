@@ -1,11 +1,11 @@
 [
     {
-      "title": "Project A",
+      "title": "Wordle Clone",
       "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "description": "This  to learn the latest languages by building an app.",
+      "skills": ["HTML", "CSS", "JS"],
+      "demo": "https://sgfaught1.github.io/wordle/",
+      "source": "https://github.com/sgfaught1/wordle"
     },
     {
       "title": "Project B",
