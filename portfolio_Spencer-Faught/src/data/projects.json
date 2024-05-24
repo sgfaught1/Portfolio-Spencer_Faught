@@ -2,7 +2,7 @@
     {
       "title": "Wordle Clone",
       "imageSrc": "projects/wordleClone.png",
-      "description": "This  to learn the latest languages by building an app.",
+      "description": "A clone of the popular New York Times game - Wordle",
       "skills": ["HTML", "CSS", "JavaScript"],
       "demo": "https://sgfaught1.github.io/wordle/",
       "source": "https://github.com/sgfaught1/wordle",
