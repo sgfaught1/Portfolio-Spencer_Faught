@@ -7,17 +7,17 @@ import history from '../../data/history.json'
 export default function Experience() {
     return (
         <section className={styles.container} id='experience'>
-            <h2 className={styles.title}>Skills / Open Source Contributions</h2>
-            <div className={styles.content}>
-                <div className={styles.skills}>
+            <h2 className={`${styles.title}`}>Skills</h2>
+            <div className={`${styles.content}`}>
+                <div className={`${styles.skills}`}>
                     {skills.map((skill, id) => {
-                    return <div key={id} className={styles.skill}>
+                    return <div key={id} className={`${styles.skill} ${styles.skillHover}`}>
                         <div className={styles.skillImageContainer}><img src={getImageUrl(skill.imageSrc)} alt={skill.title} /></div>
                         <p>{skill.title}</p>
                     </div>
 
                 })}</div>
-                <ul className={styles.history}>
+                {/* <ul className={styles.history}>
                     {
                         history.map((historyItem, id) => {
                             return (
@@ -39,7 +39,7 @@ export default function Experience() {
                             )
                         })
                     }
-                </ul>
+                </ul> */}
             </div>
         </section>
     )

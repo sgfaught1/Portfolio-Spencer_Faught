@@ -22,7 +22,7 @@ export default function About() {
                         <img src={getImageUrl("about/serverIcon.png")} alt="Server Icon" />
                         <div className={styles.aboutItemText}>
                             <h3>Backend Developer</h3>
-                            <p>I have experience developing experience in building fast and optimized API's.</p>
+                            <p>I have experience developing and maintaining databases and building fast and optimized API's.</p>
 
                         </div>
                     </li>
