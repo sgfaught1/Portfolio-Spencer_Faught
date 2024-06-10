@@ -30,7 +30,7 @@ export default function About() {
                         <img src={getImageUrl("about/uiIcon.png")} alt="UI Icon" />
                         <div className={styles.aboutItemText}>
                             <h3>UI Designer</h3>
-                            <p>I have built multiple landing pages and have experience creating design systems as well.</p>
+                            <p>I have built multiple landing pages and have experience creating design systems to give users the best UI experience.</p>
 
                         </div>
                     </li>

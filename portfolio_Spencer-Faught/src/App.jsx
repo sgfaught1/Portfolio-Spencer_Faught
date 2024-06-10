@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div className = {styles.App}>
-      <Navbar />
+      <Navbar /> 
       <Hero />
       <About /> 
       <Experience />
