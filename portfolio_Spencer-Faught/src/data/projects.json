@@ -6,24 +6,24 @@
       "skills": ["HTML", "CSS", "JavaScript", "jQuery"],
       "demo": "https://sgfaught1.github.io/wordle/",
       "source": "https://github.com/sgfaught1/wordle",
-      "unique": "Play !"
+      "unique": "Play"
+    },
+    {
+      "title": "Cocktail Craft",
+      "imageSrc": "projects/cocktail-craft.png",
+      "description": "A cocktail app designed to help users create their favorite drinks with ease.",
+      "skills": ["React", "REST API", "React Hooks", "MUI"],
+      "demo": "https://cocktail-app-inky.vercel.app/",
+      "source": "https://github.com/sgfaught1/cocktail-app",
+      "unique": "Craft"
     },
     {
       "title": "Banking App",
       "imageSrc": "projects/banking.png",
-      "description": "A modern banking app used to manage accounts, cards, and transfer funds.",
+      "description": "A modern banking app to manage accounts, cards, and transfer funds.",
       "skills": ["React", "NEXT.js", "ChartJS", "Tailwind"],
       "demo": "https://banking-app-git-main-spencers-projects-2111326b.vercel.app/",
       "source": "https://github.com/sgfaught1/banking-app",
       "unique": "View"
-    },
-    {
-      "title": "Project C",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com",
-      "unique": "Read"
     }
   ]
