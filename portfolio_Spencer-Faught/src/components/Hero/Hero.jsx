@@ -8,7 +8,7 @@ export default function Hero() {
         <section className={styles.container}>
             <div className = {styles.content}>
                 <h1 className={styles.title}>Hi, I'm Spencer</h1>
-                <p className={styles.description}>I'm a full-stack developer with 2 years of experience with frontend languages, libraries, and frameworks. Experienced in developing applications with a day to day focus on React, testing, and state management.</p>
+                <p className={styles.description}>I'm a full-stack developer with 2 years of experience with emphasis on frontend languages, libraries, and frameworks. Experienced in developing applications with a day to day focus on React, testing, and state management.</p>
                 <a className={styles.contactBtn} href="#contact">Contact Me</a>
                 </div>
                 <img className={styles.heroImg} src={getImageUrl("hero/spencerHeroImage.png")} alt="hero image of me" />
